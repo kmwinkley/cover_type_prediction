@@ -49,9 +49,9 @@ def main():
     print("Accuracy:", accuracy_score(y_test, y_pred))
     print("Classification report:\n", classification_report(y_test, y_pred))
 
-    precision = precision_score(y_test, y_pred)
-    recall = recall_score(y_test, y_pred)
-    f1 = f1_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred, average='macro')
+    recall = recall_score(y_test, y_pred, average='macro')
+    f1 = f1_score(y_test, y_pred, average='macro')
 
     print(f"Precision (macro): {precision:.2f}")
     print(f"Recall (macro): {recall:.2f}")
