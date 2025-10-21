@@ -5,3 +5,7 @@ ruff
 tqdm
 typer
 -e .
+
+scikit-learn
+pandas
+notebook
