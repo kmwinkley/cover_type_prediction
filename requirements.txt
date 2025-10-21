@@ -5,3 +5,4 @@ notebook
 matplotlib
 seaborn
 numpy
+joblib
