@@ -6,3 +6,5 @@ matplotlib
 seaborn
 numpy
 joblib
+python-dotenv
+loguru
