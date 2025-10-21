@@ -38,7 +38,8 @@ def main():
         n_estimators=100,
         learning_rate=0.1,
         max_depth=3,
-        random_state=42
+        random_state=42,
+        verbose=True
     )
     gbm.fit(X_train, y_train)
 
